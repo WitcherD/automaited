@@ -1,0 +1,19 @@
+{
+  "id": "bbbb862d-6ea8-4d51-8403-39408d4b2916",
+  "importStreams": [
+    {
+      "id": "3487a6e5-6cdb-44b9-8f54-9d09fde8775f",
+      "name": "proto-file",
+      "importerName": "ProtoFile",
+      "createMissingOperations": true,
+      "options": {
+        "files": [
+          "../../proto/automaited.proto"
+        ],
+        "importPaths": []
+      }
+    }
+  ],
+  "authConfigs": [],
+  "certificates": []
+}

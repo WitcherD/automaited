@@ -1,0 +1,28 @@
+{
+
+    "manifest_version": 2,
+    "name": "Automaited",
+    "version": "1.0",
+    "description": "Notifies the server every time when a user reactivates tabs",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+    "icons": {
+      "48": "icons/icon.png"
+    },
+
+
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": []
+      }
+    ],
+
+    "background": {
+      "scripts": ["js/background.js"]
+    },
+
+    "permissions": [
+      "tabs"
+    ]
+  }

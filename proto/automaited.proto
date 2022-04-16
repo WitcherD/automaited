@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package automaited;
+
+service NotificationsService {
+  rpc NotifyUrlChanged (UrlChangedRequest) returns (UrlChangedResponse) {}
+}
+
+message UrlChangedRequest {
+  string NewUrl = 1;
+}
+
+message UrlChangedResponse {
+   bool Acknowledged = 1;
+}

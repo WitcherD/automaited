@@ -1,0 +1,18 @@
+{
+  "settings": [
+    {
+      "options": {
+        "grpc": {
+          "endpoint": "https://localhost:7130/",
+          "mode": "grpcWeb",
+          "metadata": [
+            {
+              "key": "",
+              "value": ""
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

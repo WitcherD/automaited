@@ -1,0 +1,12 @@
+{
+  "details": {
+    "methodFqn": "automaited.NotificationsService.NotifyUrlChanged"
+  },
+  "requests": [
+    {
+      "location": "NotifyUrlChanged-request.json"
+    }
+  ],
+  "operationType": "unary",
+  "invokerName": "grpc"
+}
